@@ -15,7 +15,7 @@ cmake .
 make
 ```
 
-* **Running from command line** 
+* **Run** 
 
 
 > Run the program on the Flixster data set:
