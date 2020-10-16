@@ -21,17 +21,10 @@ make
 
 * **Run** 
 
-
-> Run the program on the Flixster data set:
-
-```setup
-./TwinGreedy -c config_flixster.txt
-```
-
-> Run the program on the Epinions data set:
+> Run the program on the example data set:
 
 ```setup
-./TwinGreedy -c config_epinions.txt
+./TwinGreedy -c config_example.txt
 ```
 
 ## Application2: Social Network Monitoring
