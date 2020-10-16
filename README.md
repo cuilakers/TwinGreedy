@@ -21,7 +21,7 @@ make
 
 * **Run** 
 
-> Run the program on the example data set:
+> Run the program on the example data set
 
 ```setup
 ./TwinGreedy -c config_example.txt
