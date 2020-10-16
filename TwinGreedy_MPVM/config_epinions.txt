@@ -1,0 +1,40 @@
+######## configuration file # all input files should be tab or space separated ########
+
+# cost-function type: (l)inear, (r)andom, (u)niform
+costFunctionType : l
+
+# input graph file with p^z_{uv} node ids should be mapped to 0 to n-1
+probGraphFile : input_epinions/epinions_weighted_mapped.txt
+
+# number of nodes 
+n : 75879
+
+# number of edges
+m : 508837
+
+# number of topics
+nrTopics : 1
+
+# number of companies
+nrCompanies : 3
+
+# input advertisers' item distributions file (\gamma^1_i ... \gamma^z_i)
+itemDistsFile : input_epinions/item_3.txt
+
+# file containing seed user incentive costs as plain spread -- in matrix form (nodeXadvertiser)
+incentiveCostsFile : input_epinions/cost_3.txt
+
+# alpha for cost multiplication -- it is not advertiser specific
+alpha : 1
+
+#
+theta_0 : 1000000
+
+# epsilon for RIS-Estimation
+epsilon : 0.1
+
+#
+lambda : 1
+
+#
+max_node : 10000
