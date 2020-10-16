@@ -41,16 +41,10 @@ make
 
 * **Run**
 
-> Run the program on the Erdos–Rényi random graph
+> Run the program on the example random graph
 
 ```setup
-./er.sh
-```
-
-> Run the program on the Barabasi-Albert random graph
-
-```setup
-./ba.sh
+./example.sh
 ```
 
 ## Contributing
