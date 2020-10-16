@@ -8,6 +8,10 @@ This repository is the official implementation of [Deterministic Approximation f
 * **Compilation**
 
 ```setup
+cd TwinGreedy_MPVM
+```
+
+```setup
 cmake .
 ```
 
@@ -28,6 +32,32 @@ make
 
 ```setup
 ./TwinGreedy -c config_epinions.txt
+```
+
+## Application2: Social Network Monitoring
+
+* **Compilation**
+
+```setup
+cd TwinGreedy_SNM
+```
+
+```setup
+make
+```
+
+* **Run**
+
+> Run the program on the Erdos–Rényi random graph
+
+```setup
+./er.sh
+```
+
+> Run the program on the Barabasi-Albert random graph
+
+```setup
+./ba.sh
 ```
 
 ## Contributing
