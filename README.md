@@ -1,5 +1,5 @@
 
-*[·-·]:# Deterministic Approximation for Submodular Maximization over a Matroid in Nearly Linear Time
+*[·-·]:Deterministic Approximation for Submodular Maximization over a Matroid in Nearly Linear Time
 
 *[·-·]:This repository is the official implementation of [Deterministic Approximation for Submodular Maximization over a Matroid in Nearly Linear Time](). 
 
