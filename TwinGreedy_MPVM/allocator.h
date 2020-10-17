@@ -30,7 +30,7 @@ namespace _Cide{
         
     public:
         
-        clock_t startTime;
+        time_t startTime;
 
         float alpha;
         AnyOption *opt;//option对象
