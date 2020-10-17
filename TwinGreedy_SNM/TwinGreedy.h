@@ -33,6 +33,7 @@ public:
 };
 
 bool TwinGreedy::check(Solution& s){
+    
     double f_val = s.first;
     NodeSet V = s.second;
     double f = 0.0;
