@@ -159,7 +159,8 @@ namespace _Cide{
         float max_delta;
         bool S1full=false;
         bool S2full=false;
-        startTime = clock();
+	time(&startTime);
+
         bool MorN=true;
         while(1)
         {
