@@ -545,7 +545,7 @@ namespace _Cide{
                 if (need_argmax2)
                 {
                     max_revenue2 = -999999999;
-                    if(aval_num1>0)
+                    if(aval_num2>0)
                     {
                         for (int i = 0; i < nrCompanies; i++)//h_1~h_n copy rrset from h_0
                         {
